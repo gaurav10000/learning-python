@@ -7,8 +7,6 @@ def fib(n):
         print(c , end=" ")
         a = b
         b = c
-        
 n = int(input("Enter number of terms of series: "))
 fib(n)
-        
 print("Hello")
