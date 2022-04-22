@@ -10,4 +10,5 @@ def fib(n):
         a = b
         b = c
 n = int(input("Enter number of terms of series: "))
+
 fib(n)
