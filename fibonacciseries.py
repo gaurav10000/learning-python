@@ -1,15 +1,14 @@
 def fib(n):
-    a = 1
+    a = 0
     b = 1
-    # print(a,b)
+    print(a,b,end = " ")
     for i in range(n):
         c = a + b
-        print(1,1,c , end=" ")
+        print(c , end=" ")
         a = b
         b = c
         
 n = int(input("Enter number of terms of series: "))
 fib(n)
         
-
-        
+print("Hello")
